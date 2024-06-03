@@ -1,0 +1,45 @@
+
+.dashboard_header{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.info-box{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#overview_inner-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.overview{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.heading{
+    /* background-color: pink; */
+    padding-bottom: 15px;
+    border-bottom: 1px solid grey;
+    width: 100%;
+}
+
+.heading h2{
+    width: 90vw;
+    font-size: 23px;
+    padding-bottom: 3px;
+}
+
+.page_mode{
+    /* background-color: red; */
+    width: 100%;
+}
+
