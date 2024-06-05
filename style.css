@@ -83,12 +83,13 @@ body{
     /* background-color: blueviolet; */
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
     height: 70%;
 }
 
 .info-box{
     background-color: #252B43;
-    width: 270px;
+    /* width: 270px; */
     height: 200px;
     text-align: center;
     border-top: 6px solid ;
@@ -191,10 +192,11 @@ body{
 #overview_inner-container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
 }
 
 .overview{
-    width: 270px;
+    /* width: 270px; */
     height: 120px;
     /* background-color: plum; */
     background-color: #252B43;
@@ -363,6 +365,55 @@ body.active{
 .over-container .info-box h1{
     color: black;
 }
+
+
+
+@media only screen and (min-width: 768px) {
+    .info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    }
+     
+ }
+
+@media only screen and (min-width: 981px) {
+    .info{
+     grid-template-columns: repeat(3, 1fr);
+    }
+     
+ }
+
+@media only screen and (min-width: 1024px) {
+    .info{
+     grid-template-columns: repeat(4, 1fr);
+    }
+     
+ }
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+    #overview_inner-container{
+     grid-template-columns: repeat(2, 1fr);
+    }
+     
+ }
+
+@media only screen and (min-width: 981px) {
+    #overview_inner-container{
+     grid-template-columns: repeat(3, 1fr);
+    }
+     
+ }
+
+@media only screen and (min-width: 1024px) {
+    #overview_inner-container{
+     grid-template-columns: repeat(4, 1fr);
+    }
+     
+ }
 
 
 
