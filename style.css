@@ -406,21 +406,21 @@ body.active{
 
 
 @media only screen and (min-width: 768px) {
-    #overview_inner-container{
+    #overview-inner-container{
      grid-template-columns: repeat(2, 1fr);
     }
      
  }
 
 @media only screen and (min-width: 981px) {
-    #overview_inner-container{
+    #overview-inner-container{
      grid-template-columns: repeat(3, 1fr);
     }
      
  }
 
 @media only screen and (min-width: 1024px) {
-    #overview_inner-container{
+    #overview-inner-container{
      grid-template-columns: repeat(4, 1fr);
     }
      
